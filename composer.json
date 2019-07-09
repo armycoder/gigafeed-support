@@ -1,0 +1,26 @@
+{
+    "name": "gigafeed/support",
+    "type": "project",
+    "description": "",
+    "keywords": [],
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.3"
+    },
+    "require-dev": {},
+    "config": {},
+    "extra": {},
+    "autoload": {
+        "psr-4": {
+            "Gigafeed\\Support\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {}
+}
