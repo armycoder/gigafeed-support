@@ -4,6 +4,12 @@
     "description": "",
     "keywords": [],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Gage Gogan",
+            "email": "gage@gigafeed.io"
+        }
+    ],
     "require": {
         "php": "^7.1.3"
     },
@@ -22,5 +28,8 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "scripts": {}
+    "scripts": {},
+    "suggest": {
+        "illuminate/database": "For using the laravel migration helper."
+    }
 }
