@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Support\Classes;
+namespace Gigafeed\Support\Classes;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Migrations\Migration as BaseMigration;
